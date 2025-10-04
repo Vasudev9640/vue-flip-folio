@@ -8,7 +8,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
   const { theme, setTheme } = useTheme();
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="h-screen overflow-hidden bg-background">
       <header className="fixed top-0 left-0 right-0 z-50 bg-card/95 backdrop-blur-sm border border-border rounded-[10px] m-2">
         <nav className="container mx-auto px-6 py-4">
           <ul className="flex gap-8 items-center justify-center relative">
@@ -66,7 +66,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
           </ul>
         </nav>
       </header>
-      <main className="pt-20">{children}</main>
+      <main className="h-full pt-20 overflow-y-auto scrollbar-thin scrollbar-thumb-primary/20 scrollbar-track-transparent hover:scrollbar-thumb-primary/40">{children}</main>
     </div>
   );
 };
