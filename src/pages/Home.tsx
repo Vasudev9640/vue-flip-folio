@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
+    <div className="min-h-full flex items-center justify-center bg-background py-12">
       <div className="text-center px-6">
         <h1 className="text-6xl font-bold text-foreground mb-6">Welcome Home</h1>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">

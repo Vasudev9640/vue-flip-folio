@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
+    <div className="min-h-full flex items-center justify-center bg-background py-12">
       <div className="text-center px-6 max-w-2xl mx-auto">
         <h1 className="text-6xl font-bold text-foreground mb-6">Contact Us</h1>
         <p className="text-xl text-muted-foreground mb-12">

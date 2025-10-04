@@ -66,7 +66,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
           </ul>
         </nav>
       </header>
-      <main className="h-full pt-20 overflow-y-auto scrollbar-thin scrollbar-thumb-primary/20 scrollbar-track-transparent hover:scrollbar-thumb-primary/40">{children}</main>
+      <main className="h-full pt-24 overflow-y-auto scrollbar-thin scrollbar-thumb-primary/20 scrollbar-track-transparent hover:scrollbar-thumb-primary/40">{children}</main>
     </div>
   );
 };
