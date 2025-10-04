@@ -8,7 +8,7 @@ const Skills = () => {
   ];
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-secondary/10 to-primary/10">
+    <div className="min-h-screen flex items-center justify-center bg-background">
       <div className="text-center px-6 max-w-4xl mx-auto">
         <h1 className="text-6xl font-bold text-foreground mb-6">Our Skills</h1>
         <p className="text-xl text-muted-foreground mb-12">
